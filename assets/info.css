@@ -1,0 +1,271 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color:rgb(243, 191, 243); */
+    background-color:rgb(255, 255, 255);
+}
+/* splash screen styling starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url ("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen styling ends here  */
+
+/* navbar styling starts here  */
+.bg-light{
+    background-color:whitesmoke !important;
+}
+
+.navbar-brand img{
+    height: 60px;
+    width: 70px;
+}
+
+.nav-link{
+    color:black!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration:none;
+}
+
+.nav-link:hover{
+    background-color:cyan;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+/* navbar styling ends here  */
+
+/*---service section---*/
+.container-fluid {
+    padding: 7% 15% 0;
+}
+  
+.body {
+    text-align: center;
+    font-family: "Cambria";
+}
+  
+  
+header{
+    z-index: 999;
+    position: fixed;
+    background: rgba(6, 0, 0, 0.774);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+  
+header.sticky{
+    background: #7b0c1b;
+    padding: 10px 200px;
+}
+  
+header .brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+  
+header .navigation{
+    list-style: none;
+    display: inline;
+    padding: 8px 12px;
+    position: relative;
+}
+  
+header .navigation a{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+} 
+  
+  
+header .navigation a:hover{
+    
+    color: #c71717;
+}
+  
+  
+  
+header.sticky .navigation a:hover{
+    color: #000;
+  
+}
+.scrollToTop-btn{
+    z-index: 999;
+    position: fixed;
+    background: #3a6cf4;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+} 
+.scrollToTop-btn.active{
+    right: 20px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.reveal{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/* TitleSection */
+.big-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Cambria-Bold";
+}
+  
+#title {
+    background-color: #000000;
+    background: url(image/bg.jpg)no-repeat;
+    color: #fff;
+    
+    padding-bottom: 7%;
+}
+  
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+  
+  
+/* navigationsection */
+.navbar-heading {
+    font-size: 1.5rem;
+    font-family: "Times New Roman";
+    padding: 0 0;
+}
+  
+.navbar {
+    padding: 0 0 4.5rem;
+}
+  
+.nav-item {
+    color: #fff;
+    padding: 40px 0 18px;
+}
+  
+.description {
+    font-size: 2.5rem;
+    font-family: "Cambria";
+    text-align: left;
+    padding-bottom: 7%;
+}
+  
+.m-img {
+    right: 30%;
+    width: 80%
+}
+  
+/* testimonialsection */
+#testimonials {
+    text-align: center;
+    z-index: 1;
+}
+  
+.testimonial-text {
+    font-size: 2.5rem;
+    padding-bottom: 7%;
+    line-height: 1.5;
+}
+  
+.carousel-item {
+    padding: 7% 15%;
+}
+  
+.testimonial-image {
+    width: 50%;
+}
+  
+#press {
+    padding: 100px ;
+    color: white;
+    text-align: center;
+    padding-bottom: 7%;
+}
+  
+.press-logo {
+    width: 10%;
+    margin: 20px 15px 10px;
+}
+  
+ 
+
+
+
+
+
+
+
+
+/* footer styling starts here */
+footer{
+    background-color:whitesmoke;
+
+}
+
+.social-icons li{
+    list-style: none;
+    display:inline;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.github{
+    color:black;
+}
+
+.linkedin{
+    color: #1e57d3;
+}
+.Facebook{
+    color:blue; 
+}
+
+.copyright{
+    padding: 11px 21px;
+    text-align: center;
+}
+
+/* footer styling ends here  */
